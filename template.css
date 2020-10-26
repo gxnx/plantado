@@ -1,0 +1,121 @@
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1% 5% 1% 5%;
+    border-bottom: 1px solid lightgray;
+}
+
+
+#header>div {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo {
+    color: green;
+    font-family: Roboto Slab;
+    font-size: 2.4rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#logo:hover{
+    color: springgreen;
+}
+
+#logo a:visited {
+    color: inherit;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.active a {
+    opacity: 1 !important;
+    border-bottom: 1px solid black;
+}
+
+.active a:hover {
+    border-bottom: 1px solid black !important;
+}
+
+#menu > li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    align-items: center;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#menu li a:hover {
+    border-bottom: 1px dashed black;
+    opacity: 0.85;
+}
+
+#menu li a:visited {
+    color: inherit;
+}
+
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#footer{
+    border-top: 1px solid lightgray;
+    padding: 1.25% 5% 1.25% 5%;
+    font-size: 0.9rem;
+    color: black;
+}
+
+#footer > a{
+    text-decoration: none;
+}
+
+.title{
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+
+.container{
+    margin: 2.5% 10% 2.5% 10%;
+}
+
+p{
+    font-size: 18pt;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}   
+
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+}
+
+#contact > div{
+    width: 50%;
+}

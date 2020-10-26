@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="template.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+    <title>Plantado</title>
+</head>
+
+<style>
+    #products{
+        margin-top: 2.5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #products > div{
+        margin-top: 1%;
+        margin-bottom: 3.5%;
+    }
+
+    .product-img{
+        height: 600px;
+        width: 400px;
+    }
+
+    .product-tag{
+        align-items: center;
+        text-align: center;
+        margin-top: 2.5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-name{
+        font-family: Roboto Slab;
+        font-size: 18pt;
+        margin-right: 1.25%;
+    }
+
+    .product-price{
+        padding-left: 1.25%;
+        border-left: 2px solid gray;
+    }
+</style>
+
+<body>
+    <div id="header">
+        <div id="logo">
+            <a href="index.html">
+                P L A N T A D O
+            </a>
+        </div>
+        <div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="title">
+            PRODUCTS
+        </div>
+
+        <div id="products">
+            <div>
+                <img class="product-img" src="assets\products\heartleafphilo-big2-510x765.jpg"
+                    title="Heartleaf Philodendron">
+                <div class="product-tag">
+                    <span class="product-name">
+                        Heartleaf Philodendron
+                    </span>
+                    <span class="product-price">
+                        ₱300
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <img class="product-img" src="assets\products\tierra-plants-indoor-8-510x762.jpg" title="Boston Fern">
+                <div class="product-tag">
+                    <span class="product-name">
+                        Boston Fern
+                    </span>
+                    <span class="product-price">
+                        ₱500
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <img class="product-img" src="assets\products\final-peacelilyplant-510x765.jpg" title="Peace Lily">
+                <div class="product-tag">
+                    <span class="product-name">
+                        Peace Lily
+                    </span>
+                    <span class="product-price">
+                        ₱1,000
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <img class="product-img" src="assets\products\tierra-november-8-510x716.jpg" title="Butterfly Palm">
+                <div class="product-tag">
+                    <span class="product-name">
+                        Butterfly Palm
+                    </span>
+                    <span class="product-price">
+                        ₱1,100
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <img class="product-img" src="assets\products\lr1-26-510x765.jpg" title="Livistona">
+                <div class="product-tag">
+                    <span class="product-name">
+                        Livistona
+                    </span>
+                    <span class="product-price">
+                        ₱1,200
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <img class="product-img" src="assets\products\tierra-november-compressor-510x765.jpg"
+                    title="Bamboo Palm">
+                <div class="product-tag">
+                    <span class="product-name">
+                        Bamboo Palm
+                    </span>
+                    <span class="product-price">
+                        ₱1,500
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <a href="mailto:geneadriansanluis.gasl@gmail.com">San Luis</a> © 2020. All rights reserved.
+    </div>
+
+</body>
+
+</html>
